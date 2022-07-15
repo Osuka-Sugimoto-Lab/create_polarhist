@@ -29,10 +29,9 @@ frame_rate = [300];
 #data_file = ["20220609_A_zircon_100L_1", "20220609_A_zircon_100L_2"]
 #frame_rate = [120, 120];
 
-
 figs_path = "figure"
-if not os.path.exists(figs_path):#ディレクトリがなかったら
-    os.mkdir(figs_path)#作成したいフォルダ名を作成
+if not os.path.exists(figs_path):
+    os.mkdir(figs_path)
 
 # +
 legs = ["LF", "LM", "LH", "RF", "RM","RH"]
